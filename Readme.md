@@ -169,34 +169,6 @@ The application uses Gemini Live API's server-to-server architecture:
    - Verify Web Audio API support
    - Test with different browsers
 
-### Debug Mode:
-
-Enable console logging by opening browser DevTools. The application logs WebSocket events, audio processing, and API responses.
-
-## Deployment
-
-### Local Development
-```bash
-npm run dev
-```
-
-### Production Deployment
-1. Set environment variables
-2. Build for production
-3. Use PM2 or similar process manager
-4. Configure reverse proxy (nginx)
-5. Enable HTTPS
-
-### Docker Deployment (Optional)
-```dockerfile
-FROM node:16-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN npm install --production
-COPY . .
-EXPOSE 3000
-CMD ["npm", "start"]
-```
 
 ## Performance Optimization
 
