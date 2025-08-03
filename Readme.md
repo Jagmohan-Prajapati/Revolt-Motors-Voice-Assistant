@@ -30,7 +30,7 @@ A real-time conversational voice interface using the Gemini Live API, replicatin
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Jagmohan-Prajapati/Revolt-Motors-Voice-Assistant.git
 cd revolt-motors-voice-chat
 ```
 
