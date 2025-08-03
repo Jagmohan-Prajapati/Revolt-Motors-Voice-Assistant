@@ -1,0 +1,30 @@
+{
+  "name": "revolt-motors-voice-chat",
+  "version": "1.0.0",
+  "description": "Real-time voice chat interface for Revolt Motors using Gemini Live API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "nodemon start.js",
+    "server": "node server.js",
+    "test-api": "node -e \"fetch('http://localhost:3000/test-api').then(r=>r.json()).then(console.log)\""
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2",
+    "node-fetch": "^2.7.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "voice-chat",
+    "gemini-api",
+    "revolt-motors",
+    "websocket",
+    "express"
+  ],
+  "author": "Jagmohan Prajapat",
+  "license": "MIT"
+}
